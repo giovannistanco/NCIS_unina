@@ -1,0 +1,15 @@
+--- wsgi.py.orig	2026-07-26 14:31:16.071880073 +0200
++++ wsgi.py	2026-07-26 14:47:27.183227060 +0200
+@@ -108,7 +108,11 @@
+ 
+ class _AlreadyHandledResponse(Response):
+     # XXX: Eventlet API should not be used directly.
+-    from eventlet.wsgi import ALREADY_HANDLED
++    try:
++        from eventlet.wsgi import ALREADY_HANDLED
++    except ImportError:          # eventlet >= 0.33
++        class ALREADY_HANDLED:   # sentinella sostitutiva
++            pass
+     _ALREADY_HANDLED = ALREADY_HANDLED
+ 
+     def __call__(self, environ, start_response):
