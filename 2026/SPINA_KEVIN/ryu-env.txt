@@ -1,0 +1,24 @@
+
+## 1. Installare Python 3.9
+
+sudo apt update
+sudo apt install -y software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install -y python3.9 python3.9-venv
+
+## 2. Creare il virtual environment
+
+python3.9 -m venv ~/ryu-env
+
+
+## 3. Attivare il virtual environment
+
+source ~/ryu-env/bin/activate
+
+## 4. Installare i pacchetti dell'ambiente Ryu
+
+pip install -r ~/ryu-requirements.txt
+
+
+source ~/ryu-env/bin/activate
