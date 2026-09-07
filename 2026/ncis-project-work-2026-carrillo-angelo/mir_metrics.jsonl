@@ -1,0 +1,65 @@
+{"type": "eta_summary", "window": 1, "ts": 1783106878.591043, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 2, "ts": 1783106888.59323, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "host_window", "window": 3, "ts": 1783106898.595032, "ip": "10.0.0.2", "n": 8, "u": 8, "mir_local": 1.0, "mir_global": 1.0, "threshold": 0.7, "flagged": false, "throughput_rps": 0.8, "avg_latency_ms": 0.011}
+{"type": "host_window", "window": 3, "ts": 1783106898.595032, "ip": "10.0.0.3", "n": 8, "u": 8, "mir_local": 1.0, "mir_global": 1.0, "threshold": 0.7, "flagged": false, "throughput_rps": 0.8, "avg_latency_ms": 0.0129}
+{"type": "eta_summary", "window": 3, "ts": 1783106898.595032, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "host_window", "window": 4, "ts": 1783106908.5970142, "ip": "10.0.0.2", "n": 11, "u": 10, "mir_local": 0.9091, "mir_global": 0.7939, "threshold": 0.4939, "flagged": false, "throughput_rps": 1.1, "avg_latency_ms": 0.0143}
+{"type": "host_window", "window": 4, "ts": 1783106908.5970142, "ip": "10.0.0.3", "n": 9, "u": 9, "mir_local": 1.0, "mir_global": 0.7939, "threshold": 0.4939, "flagged": false, "throughput_rps": 0.9, "avg_latency_ms": 0.0136}
+{"type": "host_window", "window": 4, "ts": 1783106908.5970142, "ip": "10.0.0.4", "n": 9, "u": 6, "mir_local": 0.6667, "mir_global": 0.7939, "threshold": 0.4939, "flagged": false, "throughput_rps": 0.9, "avg_latency_ms": 0.0093}
+{"type": "host_window", "window": 4, "ts": 1783106908.5970142, "ip": "10.0.0.5", "n": 5, "u": 3, "mir_local": 0.6, "mir_global": 0.7939, "threshold": 0.4939, "flagged": false, "throughput_rps": 0.5, "avg_latency_ms": 0.009}
+{"type": "eta_summary", "window": 4, "ts": 1783106908.5970142, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "host_window", "window": 5, "ts": 1783106918.5988622, "ip": "10.0.0.3", "n": 10, "u": 9, "mir_local": 0.9, "mir_global": 0.69, "threshold": 0.39, "flagged": false, "throughput_rps": 1.0, "avg_latency_ms": 0.009}
+{"type": "host_window", "window": 5, "ts": 1783106918.5988622, "ip": "10.0.0.4", "n": 10, "u": 10, "mir_local": 1.0, "mir_global": 0.69, "threshold": 0.39, "flagged": false, "throughput_rps": 1.0, "avg_latency_ms": 0.0093}
+{"type": "host_window", "window": 5, "ts": 1783106918.5988622, "ip": "10.0.0.5", "n": 12, "u": 3, "mir_local": 0.25, "mir_global": 0.69, "threshold": 0.39, "flagged": true, "throughput_rps": 1.2, "avg_latency_ms": 0.0106}
+{"type": "host_window", "window": 5, "ts": 1783106918.5988622, "ip": "10.0.0.2", "n": 12, "u": 12, "mir_local": 1.0, "mir_global": 0.69, "threshold": 0.39, "flagged": false, "throughput_rps": 1.2, "avg_latency_ms": 0.0107}
+{"type": "host_window", "window": 5, "ts": 1783106918.5988622, "ip": "10.0.0.6", "n": 10, "u": 3, "mir_local": 0.3, "mir_global": 0.69, "threshold": 0.39, "flagged": false, "throughput_rps": 1.0, "avg_latency_ms": 0.0087}
+{"type": "eta_summary", "window": 5, "ts": 1783106918.5988622, "eta_bot": 0.5, "eta_nor": 0.0, "banned_ips": ["10.0.0.5"]}
+{"type": "host_window", "window": 6, "ts": 1783106928.6017563, "ip": "10.0.0.3", "n": 10, "u": 9, "mir_local": 0.9, "mir_global": 0.7619, "threshold": 0.4619, "flagged": false, "throughput_rps": 1.0, "avg_latency_ms": 0.0113}
+{"type": "host_window", "window": 6, "ts": 1783106928.6017563, "ip": "10.0.0.6", "n": 11, "u": 3, "mir_local": 0.2727, "mir_global": 0.7619, "threshold": 0.4619, "flagged": true, "throughput_rps": 1.1, "avg_latency_ms": 0.0127}
+{"type": "host_window", "window": 6, "ts": 1783106928.6017563, "ip": "10.0.0.4", "n": 12, "u": 12, "mir_local": 1.0, "mir_global": 0.7619, "threshold": 0.4619, "flagged": false, "throughput_rps": 1.2, "avg_latency_ms": 0.0104}
+{"type": "host_window", "window": 6, "ts": 1783106928.6017563, "ip": "10.0.0.2", "n": 8, "u": 7, "mir_local": 0.875, "mir_global": 0.7619, "threshold": 0.4619, "flagged": false, "throughput_rps": 0.8, "avg_latency_ms": 0.0108}
+{"type": "eta_summary", "window": 6, "ts": 1783106928.6017563, "eta_bot": 1.0, "eta_nor": 0.0, "banned_ips": ["10.0.0.5", "10.0.0.6"]}
+{"type": "host_window", "window": 7, "ts": 1783106938.6050124, "ip": "10.0.0.2", "n": 12, "u": 10, "mir_local": 0.8333, "mir_global": 0.9444, "threshold": 0.6444, "flagged": false, "throughput_rps": 1.2, "avg_latency_ms": 0.0114}
+{"type": "host_window", "window": 7, "ts": 1783106938.6050124, "ip": "10.0.0.4", "n": 9, "u": 9, "mir_local": 1.0, "mir_global": 0.9444, "threshold": 0.6444, "flagged": false, "throughput_rps": 0.9, "avg_latency_ms": 0.0115}
+{"type": "host_window", "window": 7, "ts": 1783106938.6050124, "ip": "10.0.0.3", "n": 10, "u": 10, "mir_local": 1.0, "mir_global": 0.9444, "threshold": 0.6444, "flagged": false, "throughput_rps": 1.0, "avg_latency_ms": 0.0108}
+{"type": "eta_summary", "window": 7, "ts": 1783106938.6050124, "eta_bot": 1.0, "eta_nor": 0.0, "banned_ips": ["10.0.0.5", "10.0.0.6"]}
+{"type": "host_window", "window": 8, "ts": 1783106948.6074646, "ip": "10.0.0.4", "n": 11, "u": 10, "mir_local": 0.9091, "mir_global": 0.7828, "threshold": 0.4828, "flagged": false, "throughput_rps": 1.1, "avg_latency_ms": 0.0099}
+{"type": "host_window", "window": 8, "ts": 1783106948.6074646, "ip": "10.0.0.3", "n": 9, "u": 9, "mir_local": 1.0, "mir_global": 0.7828, "threshold": 0.4828, "flagged": false, "throughput_rps": 0.9, "avg_latency_ms": 0.01}
+{"type": "host_window", "window": 8, "ts": 1783106948.6074646, "ip": "10.0.0.2", "n": 9, "u": 8, "mir_local": 0.8889, "mir_global": 0.7828, "threshold": 0.4828, "flagged": false, "throughput_rps": 0.9, "avg_latency_ms": 0.0101}
+{"type": "host_window", "window": 8, "ts": 1783106948.6074646, "ip": "10.0.0.5", "n": 3, "u": 1, "mir_local": 0.3333, "mir_global": 0.7828, "threshold": 0.4828, "flagged": false, "throughput_rps": 0.3, "avg_latency_ms": 0.0104}
+{"type": "eta_summary", "window": 8, "ts": 1783106948.6074646, "eta_bot": 0.5, "eta_nor": 0.0, "banned_ips": ["10.0.0.6"]}
+{"type": "host_window", "window": 9, "ts": 1783106958.609841, "ip": "10.0.0.3", "n": 9, "u": 9, "mir_local": 1.0, "mir_global": 0.8438, "threshold": 0.5437, "flagged": false, "throughput_rps": 0.9, "avg_latency_ms": 0.0088}
+{"type": "host_window", "window": 9, "ts": 1783106958.609841, "ip": "10.0.0.2", "n": 8, "u": 7, "mir_local": 0.875, "mir_global": 0.8438, "threshold": 0.5437, "flagged": false, "throughput_rps": 0.8, "avg_latency_ms": 0.0093}
+{"type": "host_window", "window": 9, "ts": 1783106958.609841, "ip": "10.0.0.4", "n": 7, "u": 7, "mir_local": 1.0, "mir_global": 0.8438, "threshold": 0.5437, "flagged": false, "throughput_rps": 0.7, "avg_latency_ms": 0.0093}
+{"type": "host_window", "window": 9, "ts": 1783106958.609841, "ip": "10.0.0.5", "n": 6, "u": 3, "mir_local": 0.5, "mir_global": 0.8438, "threshold": 0.5437, "flagged": false, "throughput_rps": 0.6, "avg_latency_ms": 0.0096}
+{"type": "eta_summary", "window": 9, "ts": 1783106958.609841, "eta_bot": 0.5, "eta_nor": 0.0, "banned_ips": ["10.0.0.6"]}
+{"type": "eta_summary", "window": 10, "ts": 1783106968.6190238, "eta_bot": 0.5, "eta_nor": 0.0, "banned_ips": ["10.0.0.6"]}
+{"type": "eta_summary", "window": 11, "ts": 1783106978.6299334, "eta_bot": 0.5, "eta_nor": 0.0, "banned_ips": ["10.0.0.6"]}
+{"type": "eta_summary", "window": 12, "ts": 1783106988.641294, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 13, "ts": 1783106998.6521626, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 14, "ts": 1783107008.6628554, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 15, "ts": 1783107018.673341, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 16, "ts": 1783107028.6757686, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 17, "ts": 1783107038.685801, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 18, "ts": 1783107048.696584, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 19, "ts": 1783107058.7049136, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 20, "ts": 1783107068.7157545, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 21, "ts": 1783107078.7255673, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 22, "ts": 1783107088.7357674, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 23, "ts": 1783107098.738524, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 24, "ts": 1783107108.7492282, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 25, "ts": 1783107118.7600102, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 26, "ts": 1783107128.7708023, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 27, "ts": 1783107138.7808106, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 28, "ts": 1783107148.7918003, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 29, "ts": 1783107158.801845, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 30, "ts": 1783107168.8117907, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 31, "ts": 1783107178.8229184, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 32, "ts": 1783107188.8337727, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 33, "ts": 1783107198.843733, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 34, "ts": 1783107208.8543897, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 35, "ts": 1783107218.8651054, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 36, "ts": 1783107228.8762858, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 37, "ts": 1783107238.8871713, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 38, "ts": 1783107248.8981392, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
+{"type": "eta_summary", "window": 39, "ts": 1783107258.908963, "eta_bot": 0.0, "eta_nor": 0.0, "banned_ips": []}
