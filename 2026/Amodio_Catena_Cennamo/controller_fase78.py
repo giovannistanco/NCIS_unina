@@ -11,10 +11,6 @@ controller_mitigation.py - Fasi 5, 6, 7 e 8 con Quarantena e Redirection
     * Priorità 0:   Default goto_table 1
 - Tabella 1: Forwarding L2 ordinario (simple_switch_13)
 
-Modifiche:
-    1. Aggiunta configurazione Quarantena (h6 su porta 4 di s1)
-    2. Modificata _apply_drop_rule() per supportare la Redirection con SetField ed Output verso h6
-    3. Aggiornati i log di allarme, sblocco e stato CSV indicando la quarantena
 """
 
 import csv
@@ -42,16 +38,14 @@ BLOCK_HARD_TIMEOUT = 15
 # Riblocco rapido dei recidivi dopo lo sblocco
 FAST_REBLOCK = True
 
-# ==============================================================================
-# CONFIGURAZIONE QUARANTENA & ISPEZIONE (Nuova Funzionalità)
-# ==============================================================================
+# CONFIGURAZIONE QUARANTENA & ISPEZIONE 
 ENABLE_QUARANTINE = True        # True: Reindirizza su h6 | False: Drop puro
 QUARANTINE_HOST = 'h6'
 QUARANTINE_IP = '10.0.0.6'
 QUARANTINE_MAC = '00:00:00:00:00:06'
 QUARANTINE_DPID = 1            # Switch S1 (a cui è collegato h1)
 QUARANTINE_PORT = 4           # Porta fisica di S1 a cui è collegato h6
-# ==============================================================================
+
 
 # Mappatura Porte di Accesso: (dpid, porta) -> host
 ACCESS_PORTS = {
