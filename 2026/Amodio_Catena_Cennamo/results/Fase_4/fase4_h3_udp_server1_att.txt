@@ -1,0 +1,99 @@
+1793356388.276920 ------------------------------------------------------------
+1793356388.277057 Server listening on UDP port 5001
+1793356388.277073 UDP buffer size:  208 KByte (default)
+1793356388.277084 ------------------------------------------------------------
+1793356421.545276 [  1] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356422.545199 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356422.545337 [  1] 0.0000-1.0000 sec   428 KBytes  3.50 Mbits/sec   1.827 ms 0/298 (0%)
+1793356423.559867 [  1] 1.0000-2.0000 sec   415 KBytes  3.40 Mbits/sec   0.923 ms 0/289 (0%)
+1793356424.559540 [  1] 2.0000-3.0000 sec   378 KBytes  3.09 Mbits/sec   3.050 ms 0/263 (0%)
+1793356425.558325 [  1] 3.0000-4.0000 sec   448 KBytes  3.67 Mbits/sec   1.017 ms 0/312 (0%)
+1793356426.557795 [  1] 4.0000-5.0000 sec   402 KBytes  3.29 Mbits/sec   0.826 ms 0/280 (0%)
+1793356427.556803 [  1] 5.0000-6.0000 sec   431 KBytes  3.53 Mbits/sec   3.546 ms 0/300 (0%)
+1793356428.555264 [  1] 6.0000-7.0000 sec   462 KBytes  3.79 Mbits/sec   1.219 ms 114/436 (26%)
+1793356429.554544 [  1] 7.0000-8.0000 sec   494 KBytes  4.05 Mbits/sec   0.912 ms 111/455 (24%)
+1793356430.553742 [  1] 8.0000-9.0000 sec   474 KBytes  3.88 Mbits/sec   0.814 ms 143/473 (30%)
+1793356431.554064 [  1] 9.0000-10.0000 sec   498 KBytes  4.08 Mbits/sec   0.483 ms 106/453 (23%)
+1793356432.554121 [  1] 10.0000-11.0000 sec   482 KBytes  3.95 Mbits/sec   0.722 ms 117/453 (26%)
+1793356433.554675 [  1] 11.0000-12.0000 sec   514 KBytes  4.21 Mbits/sec   0.616 ms 91/449 (20%)
+1793356434.554657 [  1] 12.0000-13.0000 sec   518 KBytes  4.25 Mbits/sec   0.649 ms 97/458 (21%)
+1793356435.555343 [  1] 13.0000-14.0000 sec   518 KBytes  4.25 Mbits/sec   0.633 ms 86/447 (19%)
+1793356436.555681 [  1] 14.0000-15.0000 sec   511 KBytes  4.19 Mbits/sec   0.656 ms 91/447 (20%)
+1793356437.556042 [  1] 15.0000-16.0000 sec   527 KBytes  4.32 Mbits/sec   0.485 ms 79/446 (18%)
+1793356438.555997 [  1] 16.0000-17.0000 sec   520 KBytes  4.26 Mbits/sec   0.534 ms 83/445 (19%)
+1793356439.555845 [  1] 17.0000-18.0000 sec   523 KBytes  4.28 Mbits/sec   0.495 ms 81/445 (18%)
+1793356440.555695 [  1] 18.0000-19.0000 sec   515 KBytes  4.22 Mbits/sec   0.499 ms 88/447 (20%)
+1793356441.555288 [  1] 19.0000-20.0000 sec   515 KBytes  4.22 Mbits/sec   0.499 ms 87/446 (20%)
+1793356442.554564 [  1] 20.0000-21.0000 sec   530 KBytes  4.34 Mbits/sec   0.415 ms 76/445 (17%)
+1793356443.554586 [  1] 21.0000-22.0000 sec   523 KBytes  4.28 Mbits/sec   0.532 ms 82/446 (18%)
+1793356444.554237 [  1] 22.0000-23.0000 sec   518 KBytes  4.25 Mbits/sec   0.522 ms 85/446 (19%)
+1793356445.553770 [  1] 23.0000-24.0000 sec   520 KBytes  4.26 Mbits/sec   0.480 ms 83/445 (19%)
+1793356446.553546 [  1] 24.0000-25.0000 sec   524 KBytes  4.29 Mbits/sec   0.477 ms 83/448 (19%)
+1793356447.552792 [  1] 25.0000-26.0000 sec   520 KBytes  4.26 Mbits/sec   0.522 ms 83/445 (19%)
+1793356448.552192 [  1] 26.0000-27.0000 sec   515 KBytes  4.22 Mbits/sec   0.495 ms 87/446 (20%)
+1793356449.552402 [  1] 27.0000-28.0000 sec   518 KBytes  4.25 Mbits/sec   0.453 ms 85/446 (19%)
+1793356450.552270 [  1] 28.0000-29.0000 sec   517 KBytes  4.23 Mbits/sec   0.471 ms 85/445 (19%)
+1793356451.554162 [  1] 29.0000-30.0000 sec   517 KBytes  4.23 Mbits/sec   0.549 ms 86/446 (19%)
+1793356452.553212 [  1] 30.0000-31.0000 sec   518 KBytes  4.25 Mbits/sec   0.504 ms 85/446 (19%)
+1793356453.553164 [  1] 31.0000-32.0000 sec   523 KBytes  4.28 Mbits/sec   0.484 ms 82/446 (18%)
+1793356454.554094 [  1] 32.0000-33.0000 sec   524 KBytes  4.29 Mbits/sec   0.588 ms 80/445 (18%)
+1793356455.553443 [  1] 33.0000-34.0000 sec   520 KBytes  4.26 Mbits/sec   0.509 ms 83/445 (19%)
+1793356456.553996 [  1] 34.0000-35.0000 sec   520 KBytes  4.26 Mbits/sec   0.925 ms 85/447 (19%)
+1793356457.553122 [  1] 35.0000-36.0000 sec   523 KBytes  4.28 Mbits/sec   0.433 ms 81/445 (18%)
+1793356458.553889 [  1] 36.0000-37.0000 sec   518 KBytes  4.25 Mbits/sec   0.462 ms 86/447 (19%)
+1793356459.521775 [  1] 37.0000-37.9677 sec   505 KBytes  4.28 Mbits/sec   0.494 ms 80/432 (19%)
+1793356459.521894 [  1] 0.0000-37.9677 sec  18.5 MBytes  4.08 Mbits/sec   0.494 ms 2871/16053 (18%)
+1793356459.576295 [  2] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356459.592483 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356459.592562 [  2] 0.0000-0.0040 sec  2.87 KBytes  5.90 Mbits/sec   0.249 ms 16062/16064 (1e+02%)
+1793356459.636942 [  3] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356459.656133 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356459.656220 [  3] 0.0000-0.0060 sec  2.87 KBytes  3.93 Mbits/sec   0.374 ms 16073/16075 (1e+02%)
+1793356459.701579 [  4] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356459.718011 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356459.718121 [  4] 0.0000-0.0059 sec  2.87 KBytes  3.98 Mbits/sec   0.369 ms 16084/16086 (1e+02%)
+1793356459.761657 [  5] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356459.778504 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356459.778680 [  5] 0.0000-0.0060 sec  2.87 KBytes  3.92 Mbits/sec   0.375 ms 16095/16097 (1e+02%)
+1793356459.824140 [  6] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356459.841514 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356459.841607 [  6] 0.0000-0.0060 sec  2.87 KBytes  3.94 Mbits/sec   0.373 ms 16106/16108 (1e+02%)
+1793356459.886763 [  7] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356459.902935 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356459.903005 [  7] 0.0000-0.0060 sec  2.87 KBytes  3.89 Mbits/sec   0.378 ms 16117/16119 (1e+02%)
+1793356459.952073 [  8] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356459.968632 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356459.968723 [  8] 0.0000-0.0055 sec  2.87 KBytes  4.29 Mbits/sec   0.343 ms 16128/16130 (1e+02%)
+1793356460.014663 [  9] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.031234 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.031327 [  9] 0.0000-0.0059 sec  2.87 KBytes  4.02 Mbits/sec   0.366 ms 16139/16141 (1e+02%)
+1793356460.076264 [ 10] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.092732 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.092846 [ 10] 0.0000-0.0059 sec  2.87 KBytes  3.99 Mbits/sec   0.368 ms 16150/16152 (1e+02%)
+1793356460.139133 [ 11] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.155379 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.155469 [ 11] 0.0000-0.0058 sec  2.87 KBytes  4.05 Mbits/sec   0.363 ms 16161/16163 (1e+02%)
+1793356460.201299 [ 12] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.217662 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.217750 [ 12] 0.0000-0.0039 sec  2.87 KBytes  6.07 Mbits/sec   0.242 ms 16172/16174 (1e+02%)
+1793356460.267705 [ 13] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.284729 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.284847 [ 13] 0.0000-0.0040 sec  2.87 KBytes  5.84 Mbits/sec   0.252 ms 16183/16185 (1e+02%)
+1793356460.328174 [ 14] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.344738 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.344856 [ 14] 0.0000-0.0061 sec  2.87 KBytes  3.86 Mbits/sec   0.381 ms 16194/16196 (1e+02%)
+1793356460.390698 [ 15] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.407175 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.407260 [ 15] 0.0000-0.0060 sec  2.87 KBytes  3.92 Mbits/sec   0.375 ms 16205/16207 (1e+02%)
+1793356460.453421 [ 16] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.469903 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.469992 [ 16] 0.0000-0.0059 sec  2.87 KBytes  3.99 Mbits/sec   0.369 ms 16216/16218 (1e+02%)
+1793356460.515592 [ 17] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.532204 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.532329 [ 17] 0.0000-0.0061 sec  2.87 KBytes  3.89 Mbits/sec   0.378 ms 16227/16229 (1e+02%)
+1793356460.578135 [ 18] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.594952 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.595035 [ 18] 0.0000-0.0060 sec  2.87 KBytes  3.92 Mbits/sec   0.375 ms 16238/16240 (1e+02%)
+1793356460.640724 [ 19] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 38833
+1793356460.657220 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+1793356460.657315 [ 19] 0.0000-0.0059 sec  2.87 KBytes  3.98 Mbits/sec   0.369 ms 16249/16251 (1e+02%)

@@ -1,0 +1,3 @@
+Scenario,h1_Attacco_Picco [Mbps],h2_TCP_Minimo [Mbps],h2_TCP_Medio [Mbps],h4_TCP_Minimo [Mbps],h5_UDP_Medio [Mbps],Durata_Disservizio [s]
+Senza Difese (Fase 4),4.34,0.0,0.06,0.0,1.52,37.0
+Con Mitigazione (Fasi 7-9),5.4,0.09,1.07,0.14,2.14,4.0
