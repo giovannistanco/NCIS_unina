@@ -1,0 +1,285 @@
+loading app controller.py
+loading app ryu.controller.ofp_handler
+instantiating app None of Stp
+creating context stplib
+instantiating app controller.py of DoSController
+Whitelist: ON, BLOCK_TTL: 60.0
+Detector: ML, conferma 2/3, congestione: OFF
+instantiating app ryu.controller.ofp_handler of OFPHandler
+[STP][INFO] dpid=0000000000000001: Join as stp bridge.
+[STP][INFO] dpid=0000000000000001: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000001: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000001: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: Join as stp bridge.
+[STP][INFO] dpid=0000000000000002: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000003: Join as stp bridge.
+[STP][INFO] dpid=0000000000000003: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: Join as stp bridge.
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=2] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000003: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: Non root bridge.
+[STP][INFO] dpid=0000000000000003: [port=2] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=4] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000002: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: Root bridge.
+[STP][INFO] dpid=0000000000000002: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=3] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000002: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: Root bridge.
+[STP][INFO] dpid=0000000000000002: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000001: [port=3] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000001: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000001: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000001: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000001: Root bridge.
+[STP][INFO] dpid=0000000000000001: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000001: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000001: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=1] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000003: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: Non root bridge.
+[STP][INFO] dpid=0000000000000003: [port=1] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=3] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: Non root bridge.
+[STP][INFO] dpid=0000000000000004: [port=3] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=1] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000002: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: Non root bridge.
+[STP][INFO] dpid=0000000000000002: [port=1] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=2] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: Non root bridge.
+[STP][INFO] dpid=0000000000000004: [port=3] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=2] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000003: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: Non root bridge.
+[STP][INFO] dpid=0000000000000003: [port=1] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=2] NON_DESIGNATED_PORT / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=3] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: Non root bridge.
+[STP][INFO] dpid=0000000000000004: [port=3] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=1] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000003: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: Non root bridge.
+[STP][INFO] dpid=0000000000000003: [port=1] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000005: Join as stp bridge.
+[STP][INFO] dpid=0000000000000005: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000005: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000005: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=2] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: Non root bridge.
+[STP][INFO] dpid=0000000000000004: [port=3] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=2] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000002: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000002: Non root bridge.
+[STP][INFO] dpid=0000000000000002: [port=1] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=2] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000003: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: Non root bridge.
+[STP][INFO] dpid=0000000000000003: [port=1] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000003: [port=2] NON_DESIGNATED_PORT / LISTEN
+[STP][INFO] dpid=0000000000000005: [port=3] Receive superior BPDU.
+[STP][INFO] dpid=0000000000000005: [port=1] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000005: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000005: [port=3] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000005: Non root bridge.
+[STP][INFO] dpid=0000000000000005: [port=3] ROOT_PORT           / LISTEN
+[STP][INFO] dpid=0000000000000005: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000005: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000001: [port=1] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000001: [port=2] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000001: [port=3] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000004: [port=3] ROOT_PORT           / LEARN
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000002: [port=1] ROOT_PORT           / LEARN
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000003: [port=1] ROOT_PORT           / LEARN
+[STP][INFO] dpid=0000000000000003: [port=2] NON_DESIGNATED_PORT / LEARN
+[STP][INFO] dpid=0000000000000005: [port=3] ROOT_PORT           / LEARN
+[STP][INFO] dpid=0000000000000005: [port=1] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000005: [port=2] DESIGNATED_PORT     / LEARN
+[STP][INFO] dpid=0000000000000001: [port=1] DESIGNATED_PORT     / FORWARD
+[STP][INFO] dpid=0000000000000001: [port=2] DESIGNATED_PORT     / FORWARD
+[STP][INFO] dpid=0000000000000001: [port=3] DESIGNATED_PORT     / FORWARD
+[STP][INFO] dpid=0000000000000004: [port=3] ROOT_PORT           / FORWARD
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / FORWARD
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / FORWARD
+[STP][INFO] dpid=0000000000000002: [port=1] ROOT_PORT           / FORWARD
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / FORWARD
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / FORWARD
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / FORWARD
+[STP][INFO] dpid=0000000000000003: [port=1] ROOT_PORT           / FORWARD
+[STP][INFO] dpid=0000000000000003: [port=2] NON_DESIGNATED_PORT / BLOCK
+[STP][INFO] dpid=0000000000000005: [port=3] ROOT_PORT           / FORWARD
+[STP][INFO] dpid=0000000000000005: [port=1] DESIGNATED_PORT     / FORWARD
+[STP][INFO] dpid=0000000000000005: [port=2] DESIGNATED_PORT     / FORWARD
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+DETECT src=00:00:00:00:00:f1 bps=505209 pps=1731 pkt=292B rx=0 (ML)
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+DETECT src=00:00:00:00:00:f1 bps=409251 pps=1402 pkt=292B rx=0 (ML)
+BLOCK 00:00:00:00:00:f1 (ML)
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+DETECT src=00:00:00:00:00:f2 bps=122548 pps=420 pkt=292B rx=0 (ML)
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+DETECT src=00:00:00:00:00:f2 bps=309462 pps=1060 pkt=292B rx=0 (ML)
+BLOCK 00:00:00:00:00:f2 (ML)
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+[STP][INFO] dpid=0000000000000001: [port=1] Port delete.
+[STP][INFO] dpid=0000000000000001: [port=1] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000001: [port=2] Link up.
+[STP][INFO] dpid=0000000000000001: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000001: [port=2] Port delete.
+[STP][INFO] dpid=0000000000000001: [port=2] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000005: [port=1] Link up.
+[STP][INFO] dpid=0000000000000005: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000005: [port=1] Port delete.
+[STP][INFO] dpid=0000000000000005: [port=1] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000005: [port=2] Link up.
+[STP][INFO] dpid=0000000000000005: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000005: [port=2] Port delete.
+[STP][INFO] dpid=0000000000000005: [port=2] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000004: [port=1] Link up.
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=1] Port delete.
+[STP][INFO] dpid=0000000000000004: [port=1] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000001: [port=3] Link up.
+[STP][INFO] dpid=0000000000000001: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000001: [port=3] Port delete.
+[STP][INFO] dpid=0000000000000001: [port=3] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000002: [port=1] Link up.
+[STP][INFO] dpid=0000000000000002: [port=1] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=1] Port delete.
+[STP][INFO] dpid=0000000000000002: [port=1] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000005: [port=3] Link up.
+[STP][INFO] dpid=0000000000000005: [port=3] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000005: [port=3] Port delete.
+[STP][INFO] dpid=0000000000000005: [port=3] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000002: [port=2] Link up.
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=2] Port delete.
+[STP][INFO] dpid=0000000000000002: [port=2] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000003: [port=1] Port delete.
+[STP][INFO] dpid=0000000000000003: [port=1] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000003: Root bridge.
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000002: [port=3] Port delete.
+[STP][INFO] dpid=0000000000000002: [port=3] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000004: [port=3] Port delete.
+[STP][INFO] dpid=0000000000000004: [port=3] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / BLOCK
+[STP][INFO] dpid=0000000000000004: Root bridge.
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / LISTEN
+[STP][INFO] dpid=0000000000000004: [port=2] Port delete.
+[STP][INFO] dpid=0000000000000004: [port=2] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000002: [port=4] Port delete.
+[STP][INFO] dpid=0000000000000002: [port=4] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000003: [port=2] Port delete.
+[STP][INFO] dpid=0000000000000003: [port=2] DESIGNATED_PORT     / DISABLE
+[STP][INFO] dpid=0000000000000004: Leave stp bridge.
+[STP][INFO] dpid=0000000000000001: Leave stp bridge.
+[STP][INFO] dpid=0000000000000003: Leave stp bridge.
+[STP][INFO] dpid=0000000000000005: Leave stp bridge.
+[STP][INFO] dpid=0000000000000002: Leave stp bridge.

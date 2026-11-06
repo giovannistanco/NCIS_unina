@@ -1,0 +1,30 @@
+## CV per gruppo (StratifiedGroupKFold 5 fold)
+
+| Metodo | Precision | Recall | F1 | FPR |
+|---|---|---|---|---|
+| RandomForest (max_depth=4) | 0.39 | 0.95 | 0.55 | 0.21 |
+| DecisionTree (max_depth=3) | 0.32 | 0.91 | 0.47 | 0.28 |
+| RandomForest senza pkt_size | 0.36 | 0.82 | 0.50 | 0.21 |
+| ablation: solo dur (scorciatoia) | 0.17 | 0.35 | 0.23 | 0.24 |
+| Soglia statica (tetto duro) | 0.33 | 0.57 | 0.42 | 0.17 |
+| EWMA senza tetto (originale) | 0.00 | 0.00 | 0.00 | 0.01 |
+| EWMA + tetto duro | 0.32 | 0.65 | 0.43 | 0.20 |
+
+## Per host (episodio, sorgente), conferma 2/3
+
+| Metodo | Attaccanti bloccati | Host onesti bloccati |
+|---|---|---|
+| RandomForest (max_depth=4) | 98% (47/48) | 19% (34/175) |
+| Soglia statica (tetto duro) | 60% (29/48) | 18% (31/175) |
+| EWMA senza tetto (originale) | 0% (0/48) | 2% (3/175) |
+| EWMA + tetto duro | 71% (34/48) | 21% (36/175) |
+
+Feature importances (RF finale): {'pps': np.float64(0.388), 'bps': np.float64(0.327), 'pkt_size': np.float64(0.26), 'dpps': np.float64(0.025)}
+
+## Test: famiglia tenuta fuori: lowrate
+
+95 campioni di attacco. RandomForest recall 0.20, attaccanti bloccati 22% (4/18); Soglia statica recall 0.00, attaccanti bloccati 0% (0/18); EWMA + tetto duro recall 0.00, attaccanti bloccati 0% (0/18)
+
+## Test: famiglia tenuta fuori: syn
+
+124 campioni di attacco. RandomForest recall 0.73, attaccanti bloccati 75% (18/24); Soglia statica recall 0.66, attaccanti bloccati 71% (17/24); EWMA + tetto duro recall 0.66, attaccanti bloccati 71% (17/24)

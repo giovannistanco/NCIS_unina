@@ -1,0 +1,134 @@
+------------------------------------------------------------
+Server listening on TCP port 5002
+TCP window size:  128 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.100 port 5002 connected with 10.0.0.1 port 57166
+[ ID] Interval       Transfer     Bandwidth
+[  4] 0.0000-1.0000 sec   286 KBytes  2.34 Mbits/sec
+[  4] 1.0000-2.0000 sec   165 KBytes  1.36 Mbits/sec
+[  4] 2.0000-3.0000 sec   133 KBytes  1.09 Mbits/sec
+[  4] 3.0000-4.0000 sec   122 KBytes   996 Kbits/sec
+[  4] 4.0000-5.0000 sec   109 KBytes   892 Kbits/sec
+[  4] 5.0000-6.0000 sec   122 KBytes   996 Kbits/sec
+[  4] 6.0000-7.0000 sec   129 KBytes  1.05 Mbits/sec
+[  4] 7.0000-8.0000 sec   158 KBytes  1.30 Mbits/sec
+[  4] 8.0000-9.0000 sec   182 KBytes  1.49 Mbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 9.0000-10.0000 sec   123 KBytes  1.01 Mbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 10.0000-11.0000 sec  2.83 KBytes  23.2 Kbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 11.0000-12.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+[  4] 12.0000-13.0000 sec  38.2 KBytes   313 Kbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 13.0000-14.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 14.0000-15.0000 sec  15.6 KBytes   127 Kbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 15.0000-16.0000 sec   181 KBytes  1.48 Mbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 16.0000-17.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+[  4] 17.0000-18.0000 sec   187 KBytes  1.53 Mbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 18.0000-19.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 19.0000-20.0000 sec   119 KBytes   973 Kbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 20.0000-21.0000 sec  31.1 KBytes   255 Kbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 21.0000-22.0000 sec  29.7 KBytes   243 Kbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 22.0000-23.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 23.0000-24.0000 sec  1.41 KBytes  11.6 Kbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 24.0000-25.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 25.0000-26.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 26.0000-27.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 27.0000-28.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 28.0000-29.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 29.0000-30.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+[  4] 30.0000-31.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 31.0000-32.0000 sec  1.41 KBytes  11.6 Kbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 32.0000-33.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+[  4] 33.0000-34.0000 sec  0.000 Bytes  0.000 bits/sec
+[  4] 34.0000-35.0000 sec   192 KBytes  1.58 Mbits/sec
+[  4] 35.0000-36.0000 sec  90.5 KBytes   741 Kbits/sec
+[  4] 36.0000-37.0000 sec  82.0 KBytes   672 Kbits/sec
+[  4] 37.0000-38.0000 sec  77.8 KBytes   637 Kbits/sec
+[  4] 38.0000-39.0000 sec  96.2 KBytes   788 Kbits/sec
+[  4] 39.0000-40.0000 sec   132 KBytes  1.08 Mbits/sec
+[  4] 40.0000-41.0000 sec   163 KBytes  1.33 Mbits/sec
+[  4] 41.0000-42.0000 sec   195 KBytes  1.60 Mbits/sec
+[  4] 42.0000-43.0000 sec   209 KBytes  1.71 Mbits/sec
+[  4] 43.0000-44.0000 sec   226 KBytes  1.85 Mbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 44.0000-45.0000 sec   194 KBytes  1.59 Mbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 45.0000-46.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 46.0000-47.0000 sec  2.83 KBytes  23.2 Kbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 47.0000-48.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+[  4] 48.0000-49.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 49.0000-50.0000 sec  1.41 KBytes  11.6 Kbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 50.0000-51.0000 sec  2.83 KBytes  23.2 Kbits/sec
+recv failed: Resource temporarily unavailable
+[  4] 51.0000-52.0000 sec  1.41 KBytes  11.6 Kbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 52.0000-53.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+[  4] 53.0000-54.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 54.0000-55.0000 sec  2.83 KBytes  23.2 Kbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 55.0000-56.0000 sec  4.24 KBytes  34.8 Kbits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 56.0000-57.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+recv failed: Resource temporarily unavailable
+[  4] 57.0000-58.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+[  4] 58.0000-59.0000 sec  0.000 Bytes  0.000 bits/sec
+recv failed: Resource temporarily unavailable
+[  4] 59.0000-60.0000 sec  18.4 KBytes   151 Kbits/sec
+[  4] 60.0000-61.0000 sec   988 KBytes  8.10 Mbits/sec
+[  4] 61.0000-62.0000 sec  1.14 MBytes  9.56 Mbits/sec
+[  4] 62.0000-62.6082 sec   711 KBytes  9.58 Mbits/sec
+[  4] 0.0000-62.6082 sec  6.54 MBytes   876 Kbits/sec

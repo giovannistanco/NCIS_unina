@@ -1,0 +1,2 @@
+# experiments/itg_flows/attack.itg  (attacco UDP flood verso il server, riferimento D-ITG)
+-a 10.0.0.100 -T UDP -rp 9000 -C 8000 -c 1024 -t 60000

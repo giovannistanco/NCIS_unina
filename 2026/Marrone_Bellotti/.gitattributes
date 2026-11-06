@@ -1,0 +1,4 @@
+# gli script girano in Linux (container): niente CRLF anche su checkout Windows
+*.sh text eol=lf
+*.py text eol=lf
+docker/* text eol=lf
