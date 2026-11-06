@@ -1,0 +1,266 @@
+loading app controller.py
+loading app ryu.controller.ofp_handler
+instantiating app controller.py of DynamicSlicing
+[CFG] DEFENSE_ENABLED = False: il controller misura soltanto, nessuna difesa attiva
+instantiating app ryu.controller.ofp_handler of OFPHandler
+[FWD] s1 pronto (accesso)
+[FWD] s2 pronto (accesso)
+[FWD] s3 pronto (accesso)
+[FWD] s4 pronto (transito)
+[FWD] s5 pronto (transito)
+[ARP] s1: detto a 10.0.0.2 che 10.0.0.5 e' 00:00:00:00:00:05
+[ARP] s2: detto a 10.0.0.4 che 10.0.0.5 e' 00:00:00:00:00:05
+[ARP] s3: detto a 10.0.0.5 che 10.0.0.2 e' 00:00:00:00:00:02
+[ARP] s3: detto a 10.0.0.5 che 10.0.0.4 e' 00:00:00:00:00:04
+[MON] link s4 -> s3: 2.0 Mbit/s (20% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 0.3 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.4 Mbit/s
+[MON] link s4 -> s3: 9.1 Mbit/s (91% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 5.2 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 5.1 Mbit/s
+[MON] link s4 -> s3: 9.4 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.9 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.9 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s2: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 9.4 Mbit/s (94% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.5 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.4: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.4 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 5.0 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 5.0 Mbit/s
+[MON] link s4 -> s3: 9.0 Mbit/s (89% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.4 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.5 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s2: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 8.9 Mbit/s (88% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.4 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.2 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.4: 0.1 Mbit/s
+[MON] link s4 -> s3: 8.8 Mbit/s (88% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.4 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.4 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.4: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.2 Mbit/s (91% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.7 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.7 Mbit/s
+[MON] link s4 -> s3: 8.3 Mbit/s (83% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.2 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.4 Mbit/s
+[MON] link s4 -> s2: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 9.2 Mbit/s (92% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.2 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.4 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.4: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.2 Mbit/s (91% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.9 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.7 Mbit/s
+[MON] link s4 -> s3: 9.2 Mbit/s (91% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.7 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.8 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s2: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 9.3 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.4 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.3 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.4: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.1 Mbit/s (91% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.9 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.5 Mbit/s
+[MON] link s4 -> s3: 9.0 Mbit/s (90% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.9 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.5 Mbit/s
+[MON] link s4 -> s3: 7.6 Mbit/s (76% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 3.8 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 8.5 Mbit/s (85% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.2 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 3.6 Mbit/s
+[MON] link s4 -> s3: 8.2 Mbit/s (82% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.6 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 3.9 Mbit/s
+[ARP] s1: detto a 10.0.0.1 che 10.0.0.5 e' 00:00:00:00:00:05
+[ARP] s2: detto a 10.0.0.3 che 10.0.0.5 e' 00:00:00:00:00:05
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 9.0 Mbit/s (89% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.7 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.1 Mbit/s
+[MON] link s4 -> s3: 8.4 Mbit/s (84% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 0.6 Mbit/s
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 4.4 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 0.6 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 4.0 Mbit/s
+[MON] link s4 -> s3: 9.2 Mbit/s (92% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 2.1 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 1.7 Mbit/s
+[MON] link s4 -> s3: 9.2 Mbit/s (91% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 0.2 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.4 Mbit/s
+[MON] link s4 -> s3: 8.8 Mbit/s (88% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.1 Mbit/s (90% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.3 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 0.1 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.1 Mbit/s (91% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.1 Mbit/s (90% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.0 Mbit/s (90% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[MON] link s4 -> s3: 7.5 Mbit/s (75% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.4 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.4 Mbit/s (94% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.2 Mbit/s
+[MON] link s4 -> s3: 9.4 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 0.1 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.1 Mbit/s (90% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 0.1 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[MON] link s4 -> s3: 8.4 Mbit/s (83% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.2 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.2 Mbit/s
+[MON] link s4 -> s3: 9.3 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.4 Mbit/s
+[MON] link s4 -> s3: 9.3 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.3 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 0.1 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.3 Mbit/s (92% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 0.1 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.4 Mbit/s
+[MON] link s4 -> s3: 9.1 Mbit/s (91% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.3 Mbit/s (92% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.6 Mbit/s (95% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.4 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.2 Mbit/s (92% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 0.1 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.4 Mbit/s (94% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.3 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.3 Mbit/s (92% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 9.4 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[MON] link s4 -> s3: 9.0 Mbit/s (89% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.4 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 0.1 Mbit/s
+[ARP] s3: detto a 10.0.0.5 che 10.0.0.1 e' 00:00:00:00:00:01
+[ARP] s3: detto a 10.0.0.5 che 10.0.0.3 e' 00:00:00:00:00:03
+[MON] link s4 -> s3: 9.3 Mbit/s (92% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 6.5 Mbit/s
+[MON] link s4 -> s3: 7.4 Mbit/s (73% della capacita')
+[MON]    flusso 10.0.0.1 -> 10.0.0.5: 5.4 Mbit/s
+[MON]    flusso 10.0.0.3 -> 10.0.0.5: 5.5 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 8.9 Mbit/s (89% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 5.8 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 1.5 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 9.1 Mbit/s (91% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 6.9 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 2.8 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[ARP] s3: detto a 10.0.0.5 che 10.0.0.2 e' 00:00:00:00:00:02
+[ARP] s3: detto a 10.0.0.5 che 10.0.0.4 e' 00:00:00:00:00:04
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 9.2 Mbit/s (92% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 7.0 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 2.6 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 8.4 Mbit/s (83% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 6.6 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 2.7 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 8.9 Mbit/s (89% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 6.8 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 2.4 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON] link s4 -> s1: 0.2 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 9.2 Mbit/s (92% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 6.1 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 2.4 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 7.0 Mbit/s (69% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 5.3 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 2.0 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 8.6 Mbit/s (86% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 5.1 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 1.9 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 9.1 Mbit/s (90% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 6.0 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 2.5 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON] link s4 -> s1: 0.1 Mbit/s (1% della capacita')
+[MON] link s4 -> s3: 9.3 Mbit/s (93% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 6.5 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 2.9 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON] link s4 -> s3: 7.1 Mbit/s (71% della capacita')
+[MON]    flusso 10.0.0.2 -> 10.0.0.5: 5.3 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 2.8 Mbit/s
+[MON]    flusso 10.0.0.5 -> 10.0.0.2: 0.1 Mbit/s
+[MON]    flusso 10.0.0.4 -> 10.0.0.5: 1.8 Mbit/s
