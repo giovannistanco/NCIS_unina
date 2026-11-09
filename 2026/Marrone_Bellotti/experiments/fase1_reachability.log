@@ -1,0 +1,54 @@
+*** Error setting resource limits. Mininet's performance may be affected.
+*** Controller
+*** Hosts
+*** Switches
+*** Links
+(10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (7.00Mbit 5ms delay) (7.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) *** Configuring hosts
+hsrv u1 u2 a1 a2 
+*** Starting controller
+c0 
+*** Starting 5 switches
+s1 (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 5ms delay) s2 (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) s3 (10.00Mbit 5ms delay) (7.00Mbit 5ms delay) s4 (10.00Mbit 0.1ms delay) (7.00Mbit 5ms delay) (10.00Mbit 5ms delay) s5 (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 5ms delay) ...(10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 5ms delay) (7.00Mbit 5ms delay) (10.00Mbit 0.1ms delay) (7.00Mbit 5ms delay) (10.00Mbit 5ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 0.1ms delay) (10.00Mbit 5ms delay) 
+*** [TEST] Attendo la convergenza STP (il ciclo richiede ~35s)
+*** [TEST] pingall di warm-up
+*** Ping: testing ping reachability
+hsrv -> u1 u2 a1 a2 
+u1 -> hsrv u2 a1 a2 
+u2 -> hsrv u1 a1 a2 
+a1 -> hsrv u1 u2 a2 
+a2 -> hsrv u1 u2 a1 
+*** Results: 0% dropped (20/20 received)
+*** [TEST] pingall di misura
+*** Ping: testing ping reachability
+hsrv -> u1 u2 a1 a2 
+u1 -> hsrv u2 a1 a2 
+u2 -> hsrv u1 a1 a2 
+a1 -> hsrv u1 u2 a2 
+a2 -> hsrv u1 u2 a1 
+*** Results: 0% dropped (20/20 received)
+*** [TEST] Dump flow di s3 (collo di bottiglia)
+
+ cookie=0x0, duration=36.784s, table=0, n_packets=26, n_bytes=1560, priority=65535,dl_dst=01:80:c2:00:00:00 actions=CONTROLLER:65535
+ cookie=0x0, duration=36.787s, table=0, n_packets=30, n_bytes=2184, priority=0 actions=CONTROLLER:65535
+
+*** [TEST] net (link):
+    u1-eth0<->s1-eth1
+    a1-eth0<->s1-eth2
+    u2-eth0<->s5-eth1
+    a2-eth0<->s5-eth2
+    hsrv-eth0<->s4-eth1
+    s1-eth3<->s2-eth1
+    s5-eth3<->s2-eth2
+    s2-eth3<->s3-eth1
+    s3-eth2<->s4-eth2
+    s4-eth3<->s2-eth4
+*** Stopping 1 controllers
+c0 
+*** Stopping 10 links
+..........
+*** Stopping 5 switches
+s1 s2 s3 s4 s5 
+*** Stopping 5 hosts
+hsrv u1 u2 a1 a2 *** [TEST] RESULT: 0% dropped — reachability OK
+
+*** Done

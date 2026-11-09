@@ -1,0 +1,15 @@
+# Runtime: Python 3.9 (Debian 11). Ryu 4.34 non funziona con Python >= 3.10 ne' con
+# eventlet recenti: eventlet va fissato a 0.30.2.
+# Ryu si installa con setuptools 58 e senza build isolation (vedi docker/Dockerfile):
+#   pip install "pip<24.1" "setuptools==58.2.0" wheel
+#   pip install --no-build-isolation -r requirements.txt
+# Mininet, Open vSwitch, iperf e D-ITG NON sono pacchetti pip: vedi README.
+ryu==4.34
+eventlet==0.30.2
+# model.joblib e' un pickle: va caricato con la STESSA versione di scikit-learn
+# usata per addestrarlo (riaddestrare con ml/train.py se si cambia versione).
+scikit-learn==1.6.1
+numpy==2.0.2
+pandas==2.2.3
+joblib==1.4.2
+matplotlib==3.9.4

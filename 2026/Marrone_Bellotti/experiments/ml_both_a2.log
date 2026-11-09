@@ -1,0 +1,9 @@
+------------------------------------------------------------
+Client connecting to 10.0.0.100, UDP port 5001
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.242 port 34361 connected with 10.0.0.100 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3] 0.0000-60.0007 sec  37.5 MBytes  5.24 Mbits/sec
+[  3] Sent 157291 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
