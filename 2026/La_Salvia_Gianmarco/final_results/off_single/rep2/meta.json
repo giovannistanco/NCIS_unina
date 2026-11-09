@@ -1,0 +1,24 @@
+{
+ "label": "off",
+ "scenario": "single",
+ "t_pre": 8,
+ "t_att": 20,
+ "t_post": 12,
+ "ping_interval": 0.5,
+ "iperf": {
+  "start": 1793982186.1473367,
+  "attack_start": 1793982194.1559463,
+  "attack_end": 1793982214.1765978,
+  "attackers": [
+   "h2"
+  ]
+ },
+ "ping": {
+  "start": 1793982244.1774948,
+  "attack_start": 1793982252.1863458,
+  "attack_end": 1793982272.2069867,
+  "attackers": [
+   "h2"
+  ]
+ }
+}

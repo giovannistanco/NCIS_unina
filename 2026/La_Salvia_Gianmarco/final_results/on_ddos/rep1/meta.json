@@ -1,0 +1,26 @@
+{
+ "label": "on",
+ "scenario": "ddos",
+ "t_pre": 8,
+ "t_att": 20,
+ "t_post": 12,
+ "ping_interval": 0.5,
+ "iperf": {
+  "start": 1793983118.2459595,
+  "attack_start": 1793983126.2542102,
+  "attack_end": 1793983146.2740219,
+  "attackers": [
+   "h2",
+   "h4"
+  ]
+ },
+ "ping": {
+  "start": 1793983301.3175273,
+  "attack_start": 1793983309.326425,
+  "attack_end": 1793983329.3460345,
+  "attackers": [
+   "h2",
+   "h4"
+  ]
+ }
+}
