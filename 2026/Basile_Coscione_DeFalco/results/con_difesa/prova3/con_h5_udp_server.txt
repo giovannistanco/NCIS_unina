@@ -1,0 +1,37 @@
+------------------------------------------------------------
+Server listening on UDP port 5001
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.5 port 5001 connected with 10.0.0.1 port 42312
+[  2] local 10.0.0.5 port 5001 connected with 10.0.0.3 port 49546
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-30.9421 sec  4.80 MBytes  1.30 Mbits/sec   1.849 ms 12630/16054 (79%)
+[  1] 0.0000-30.9421 sec  55 datagrams received out-of-order
+[  2] 0.0000-30.9566 sec  5.57 MBytes  1.51 Mbits/sec   4.317 ms 12085/16056 (75%)
+[  2] 0.0000-30.9566 sec  28 datagrams received out-of-order
+[  3] local 10.0.0.5 port 5001 connected with 10.0.0.1 port 42312
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3] 0.0000-0.0126 sec  2.87 KBytes  1.87 Mbits/sec   0.787 ms 16070/16072 (1e+02%)
+[  4] local 10.0.0.5 port 5001 connected with 10.0.0.3 port 49546
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  4] 0.0000-0.0051 sec  2.87 KBytes  4.60 Mbits/sec   0.319 ms 16076/16078 (1e+02%)
+[  5] local 10.0.0.5 port 5001 connected with 10.0.0.1 port 42312
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  5] 0.0000-0.0204 sec  2.87 KBytes  1.15 Mbits/sec   1.273 ms 16092/16094 (1e+02%)
+[  6] local 10.0.0.5 port 5001 connected with 10.0.0.3 port 49546
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  6] 0.0000-0.0111 sec  2.87 KBytes  2.12 Mbits/sec   0.692 ms 16098/16100 (1e+02%)
+[  7] local 10.0.0.5 port 5001 connected with 10.0.0.1 port 42312
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  7] 0.0000-0.0052 sec  2.87 KBytes  4.56 Mbits/sec   0.323 ms 16110/16112 (1e+02%)
+[  8] local 10.0.0.5 port 5001 connected with 10.0.0.1 port 42312
+[  9] local 10.0.0.5 port 5001 connected with 10.0.0.3 port 49546
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  8] 0.0000-0.0185 sec  2.87 KBytes  1.27 Mbits/sec   1.155 ms 16129/16131 (1e+02%)
+[  9] 0.0000-0.0054 sec  2.87 KBytes  4.34 Mbits/sec   0.338 ms 16128/16130 (1e+02%)
+[ 10] local 10.0.0.5 port 5001 connected with 10.0.0.1 port 42312
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ 10] 0.0000-0.0060 sec  2.87 KBytes  3.92 Mbits/sec   0.375 ms 16148/16150 (1e+02%)
+[ 11] local 10.0.0.5 port 5001 connected with 10.0.0.3 port 49546
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ 11] 0.0000-0.0113 sec  2.87 KBytes  2.09 Mbits/sec   0.704 ms 16153/16155 (1e+02%)

@@ -1,0 +1,8 @@
+h5 iperf -s > con_h5_tcp_server.txt &
+h5 iperf -s -u > con_h5_udp_server.txt &
+h2 iperf -c 10.0.0.5 -t 60 -i 5 > con_h2_tcp.txt &
+h4 iperf -c 10.0.0.5 -t 60 -i 5 > con_h4_tcp.txt &
+sh sleep 20
+h1 iperf -c 10.0.0.5 -u -b 6M -t 30 > con_h1_udp.txt &
+h3 iperf -c 10.0.0.5 -u -b 6M -t 30 > con_h3_udp.txt &
+sh sleep 45
